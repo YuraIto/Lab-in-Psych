@@ -1,0 +1,1023 @@
+15.3501 	INFO 	Loaded monitor calibration from ['2025_02_12 09:50']
+15.3635 	WARNING 	User requested fullscreen with size [1024  768], but screen is actually [1920, 1080]. Using actual size
+18.4730 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000210605F2950>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x00000210605F29B0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x00000210606AC040>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+18.4731 	EXP 	window1: backgroundImage = ''
+18.4731 	EXP 	window1: backgroundFit = 'none'
+18.6634 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+18.6634 	EXP 	window1: recordFrameIntervals = False
+18.8223 	EXP 	window1: recordFrameIntervals = True
+19.0057 	EXP 	Screen (0) actual frame rate measured at 60.05Hz
+19.0057 	EXP 	window1: recordFrameIntervals = False
+24.5117 	INFO 	keyboard.Keyboard is using iohub backend.
+24.5119 	INFO 	keyboard.Keyboard is using iohub backend.
+24.5120 	INFO 	keyboard.Keyboard is using iohub backend.
+24.5120 	EXP 	untitled: status = STARTED
+25.0749 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+25.0814 	EXP 	Created fixation = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=0.0, draggable=True, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='fixation', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), units='pix', vertices=ndarray(...), win=Window(...), windingRule=None)
+25.0873 	EXP 	Created grating = GratingStim(__class__=<class 'psychopy.visual.grating.GratingStim'>, anchor='center', autoDraw=False, autoLog=True, blendmode='avg', color=array([0.3, 0.3, 0.3]), colorSpace='rgb', contrast=0.3, depth=-1.0, draggable=False, interpolate=True, mask='gauss', maskParams=None, name='grating', opacity=1, ori=1.0, phase=array([0., 0.]), pos=array([0., 0.]), rgbPedestal=array([0., 0., 0.]), sf=array([5., 5.]), size=array([0.2, 0.2]), tex='sin', texRes=128.0, units='height', win=Window(...))
+0.0095 	INFO 	Keyboard events cleared
+0.0090 	EXP 	text: autoDraw = True
+3.2643 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+3.2670 	DATA 	Keypress: space
+3.2704 	INFO 	Keyboard events cleared
+3.2697 	EXP 	text: autoDraw = False
+3.2697 	EXP 	grating: ori = -4.0
+3.2697 	EXP 	fixation: autoDraw = True
+4.3198 	EXP 	fixation: autoDraw = False
+4.3198 	EXP 	grating: autoDraw = True
+4.3198 	EXP 	grating: tex = 'sin'
+4.6249 	EXP 	grating: autoDraw = False
+4.9765 	DATA 	Keypress: left
+5.5425 	EXP 	New trial (rep=1, index=0): <Trial 1 (0 in rep 1) data={'thisN': 1, 'thisTrialN': 0, 'thisRepN': 1}>
+5.5443 	DATA 	Keypress: down
+5.5588 	INFO 	Keyboard events cleared
+5.5573 	EXP 	fixation: autoDraw = False
+5.5573 	EXP 	grating: autoDraw = False
+5.5573 	EXP 	grating: ori = 4.0
+5.5573 	EXP 	fixation: autoDraw = True
+6.5565 	EXP 	fixation: autoDraw = False
+6.5565 	EXP 	grating: autoDraw = True
+6.8561 	EXP 	grating: autoDraw = False
+7.3256 	EXP 	New trial (rep=2, index=0): <Trial 2 (0 in rep 2) data={'thisN': 2, 'thisTrialN': 0, 'thisRepN': 2}>
+7.3278 	DATA 	Keypress: down
+7.3397 	INFO 	Keyboard events cleared
+7.3392 	EXP 	fixation: autoDraw = False
+7.3392 	EXP 	grating: autoDraw = False
+7.3392 	EXP 	grating: ori = 4.0
+7.3392 	EXP 	fixation: autoDraw = True
+8.3386 	EXP 	fixation: autoDraw = False
+8.3386 	EXP 	grating: autoDraw = True
+8.6380 	EXP 	grating: autoDraw = False
+8.8392 	EXP 	New trial (rep=3, index=0): <Trial 3 (0 in rep 3) data={'thisN': 3, 'thisTrialN': 0, 'thisRepN': 3}>
+8.8405 	DATA 	Keypress: down
+8.8550 	INFO 	Keyboard events cleared
+8.8545 	EXP 	fixation: autoDraw = False
+8.8545 	EXP 	grating: autoDraw = False
+8.8545 	EXP 	grating: ori = 0.0
+8.8545 	EXP 	fixation: autoDraw = True
+9.8538 	EXP 	fixation: autoDraw = False
+9.8538 	EXP 	grating: autoDraw = True
+10.1536 	EXP 	grating: autoDraw = False
+10.5216 	EXP 	New trial (rep=4, index=0): <Trial 4 (0 in rep 4) data={'thisN': 4, 'thisTrialN': 0, 'thisRepN': 4}>
+10.5233 	DATA 	Keypress: up
+10.5371 	INFO 	Keyboard events cleared
+10.5366 	EXP 	fixation: autoDraw = False
+10.5366 	EXP 	grating: autoDraw = False
+10.5366 	EXP 	grating: ori = 0.0
+10.5366 	EXP 	fixation: autoDraw = True
+11.5361 	EXP 	fixation: autoDraw = False
+11.5361 	EXP 	grating: autoDraw = True
+11.8357 	EXP 	grating: autoDraw = False
+12.1037 	EXP 	New trial (rep=5, index=0): <Trial 5 (0 in rep 5) data={'thisN': 5, 'thisTrialN': 0, 'thisRepN': 5}>
+12.1050 	DATA 	Keypress: up
+12.1193 	INFO 	Keyboard events cleared
+12.1188 	EXP 	fixation: autoDraw = False
+12.1188 	EXP 	grating: autoDraw = False
+12.1188 	EXP 	grating: ori = 3.0
+12.1188 	EXP 	fixation: autoDraw = True
+13.1180 	EXP 	fixation: autoDraw = False
+13.1180 	EXP 	grating: autoDraw = True
+13.4177 	EXP 	grating: autoDraw = False
+15.5999 	EXP 	New trial (rep=6, index=0): <Trial 6 (0 in rep 6) data={'thisN': 6, 'thisTrialN': 0, 'thisRepN': 6}>
+15.6012 	DATA 	Keypress: down
+15.6157 	INFO 	Keyboard events cleared
+15.6152 	EXP 	fixation: autoDraw = False
+15.6152 	EXP 	grating: autoDraw = False
+15.6152 	EXP 	grating: ori = -5.0
+15.6152 	EXP 	fixation: autoDraw = True
+16.6144 	EXP 	fixation: autoDraw = False
+16.6144 	EXP 	grating: autoDraw = True
+16.9140 	EXP 	grating: autoDraw = False
+17.2656 	DATA 	Keypress: up
+17.2820 	EXP 	New trial (rep=7, index=0): <Trial 7 (0 in rep 7) data={'thisN': 7, 'thisTrialN': 0, 'thisRepN': 7}>
+17.2976 	INFO 	Keyboard events cleared
+17.2972 	EXP 	fixation: autoDraw = False
+17.2972 	EXP 	grating: autoDraw = False
+17.2972 	EXP 	grating: ori = 4.0
+17.2972 	EXP 	fixation: autoDraw = True
+17.3320 	EXP 	New trial (rep=8, index=0): <Trial 8 (0 in rep 8) data={'thisN': 8, 'thisTrialN': 0, 'thisRepN': 8}>
+17.3333 	DATA 	Keypress: down
+17.3477 	INFO 	Keyboard events cleared
+17.3472 	EXP 	fixation: autoDraw = False
+17.3472 	EXP 	grating: autoDraw = False
+17.3472 	EXP 	grating: ori = -3.0
+17.3472 	EXP 	fixation: autoDraw = True
+18.3463 	EXP 	fixation: autoDraw = False
+18.3463 	EXP 	grating: autoDraw = True
+18.6459 	EXP 	grating: autoDraw = False
+19.4468 	EXP 	New trial (rep=9, index=0): <Trial 9 (0 in rep 9) data={'thisN': 9, 'thisTrialN': 0, 'thisRepN': 9}>
+19.4481 	DATA 	Keypress: down
+19.4627 	INFO 	Keyboard events cleared
+19.4621 	EXP 	fixation: autoDraw = False
+19.4621 	EXP 	grating: autoDraw = False
+19.4621 	EXP 	grating: ori = 4.0
+19.4621 	EXP 	fixation: autoDraw = True
+20.4613 	EXP 	fixation: autoDraw = False
+20.4613 	EXP 	grating: autoDraw = True
+20.7607 	EXP 	grating: autoDraw = False
+21.0454 	EXP 	New trial (rep=10, index=0): <Trial 10 (0 in rep 10) data={'thisN': 10, 'thisTrialN': 0, 'thisRepN': 10}>
+21.0471 	DATA 	Keypress: down
+21.0608 	INFO 	Keyboard events cleared
+21.0604 	EXP 	fixation: autoDraw = False
+21.0604 	EXP 	grating: autoDraw = False
+21.0604 	EXP 	grating: ori = 4.0
+21.0604 	EXP 	fixation: autoDraw = True
+22.0596 	EXP 	fixation: autoDraw = False
+22.0596 	EXP 	grating: autoDraw = True
+22.3596 	EXP 	grating: autoDraw = False
+22.5448 	DATA 	Keypress: down
+22.5605 	EXP 	New trial (rep=11, index=0): <Trial 11 (0 in rep 11) data={'thisN': 11, 'thisTrialN': 0, 'thisRepN': 11}>
+22.5764 	INFO 	Keyboard events cleared
+22.5758 	EXP 	fixation: autoDraw = False
+22.5758 	EXP 	grating: autoDraw = False
+22.5758 	EXP 	grating: ori = 0.0
+22.5758 	EXP 	fixation: autoDraw = True
+23.5750 	EXP 	fixation: autoDraw = False
+23.5750 	EXP 	grating: autoDraw = True
+23.8747 	EXP 	grating: autoDraw = False
+24.1612 	EXP 	New trial (rep=12, index=0): <Trial 12 (0 in rep 12) data={'thisN': 12, 'thisTrialN': 0, 'thisRepN': 12}>
+24.1632 	DATA 	Keypress: up
+24.1753 	INFO 	Keyboard events cleared
+24.1746 	EXP 	fixation: autoDraw = False
+24.1746 	EXP 	grating: autoDraw = False
+24.1746 	EXP 	grating: ori = 0.0
+24.1746 	EXP 	fixation: autoDraw = True
+25.1740 	EXP 	fixation: autoDraw = False
+25.1740 	EXP 	grating: autoDraw = True
+25.4737 	EXP 	grating: autoDraw = False
+25.7243 	EXP 	New trial (rep=13, index=0): <Trial 13 (0 in rep 13) data={'thisN': 13, 'thisTrialN': 0, 'thisRepN': 13}>
+25.7257 	DATA 	Keypress: up
+25.7402 	INFO 	Keyboard events cleared
+25.7397 	EXP 	fixation: autoDraw = False
+25.7397 	EXP 	grating: autoDraw = False
+25.7397 	EXP 	grating: ori = 0.0
+25.7397 	EXP 	fixation: autoDraw = True
+26.7389 	EXP 	fixation: autoDraw = False
+26.7389 	EXP 	grating: autoDraw = True
+27.0385 	EXP 	grating: autoDraw = False
+27.2232 	EXP 	New trial (rep=14, index=0): <Trial 14 (0 in rep 14) data={'thisN': 14, 'thisTrialN': 0, 'thisRepN': 14}>
+27.2244 	DATA 	Keypress: up
+27.2390 	INFO 	Keyboard events cleared
+27.2385 	EXP 	fixation: autoDraw = False
+27.2385 	EXP 	grating: autoDraw = False
+27.2385 	EXP 	grating: ori = 0.0
+27.2385 	EXP 	fixation: autoDraw = True
+28.2378 	EXP 	fixation: autoDraw = False
+28.2378 	EXP 	grating: autoDraw = True
+28.5375 	EXP 	grating: autoDraw = False
+28.7886 	EXP 	New trial (rep=15, index=0): <Trial 15 (0 in rep 15) data={'thisN': 15, 'thisTrialN': 0, 'thisRepN': 15}>
+28.7903 	DATA 	Keypress: up
+28.8041 	INFO 	Keyboard events cleared
+28.8037 	EXP 	fixation: autoDraw = False
+28.8037 	EXP 	grating: autoDraw = False
+28.8037 	EXP 	grating: ori = 0.0
+28.8037 	EXP 	fixation: autoDraw = True
+29.8030 	EXP 	fixation: autoDraw = False
+29.8030 	EXP 	grating: autoDraw = True
+30.1026 	EXP 	grating: autoDraw = False
+30.2382 	EXP 	New trial (rep=16, index=0): <Trial 16 (0 in rep 16) data={'thisN': 16, 'thisTrialN': 0, 'thisRepN': 16}>
+30.2406 	DATA 	Keypress: up
+30.2535 	INFO 	Keyboard events cleared
+30.2527 	EXP 	fixation: autoDraw = False
+30.2527 	EXP 	grating: autoDraw = False
+30.2527 	EXP 	grating: ori = 0.0
+30.2527 	EXP 	fixation: autoDraw = True
+31.2518 	EXP 	grating: autoDraw = True
+31.2686 	EXP 	fixation: autoDraw = False
+31.5513 	EXP 	grating: autoDraw = False
+31.6359 	EXP 	New trial (rep=17, index=0): <Trial 17 (0 in rep 17) data={'thisN': 17, 'thisTrialN': 0, 'thisRepN': 17}>
+31.6374 	DATA 	Keypress: up
+31.6517 	INFO 	Keyboard events cleared
+31.6512 	EXP 	fixation: autoDraw = False
+31.6512 	EXP 	grating: autoDraw = False
+31.6512 	EXP 	grating: ori = 3.0
+31.6512 	EXP 	fixation: autoDraw = True
+32.6504 	EXP 	fixation: autoDraw = False
+32.6504 	EXP 	grating: autoDraw = True
+32.9500 	EXP 	grating: autoDraw = False
+33.2178 	EXP 	New trial (rep=18, index=0): <Trial 18 (0 in rep 18) data={'thisN': 18, 'thisTrialN': 0, 'thisRepN': 18}>
+33.2189 	DATA 	Keypress: down
+33.2337 	INFO 	Keyboard events cleared
+33.2333 	EXP 	fixation: autoDraw = False
+33.2333 	EXP 	grating: autoDraw = False
+33.2333 	EXP 	grating: ori = 0.0
+33.2333 	EXP 	fixation: autoDraw = True
+34.2326 	EXP 	fixation: autoDraw = False
+34.2326 	EXP 	grating: autoDraw = True
+34.5321 	EXP 	grating: autoDraw = False
+34.7999 	EXP 	New trial (rep=19, index=0): <Trial 19 (0 in rep 19) data={'thisN': 19, 'thisTrialN': 0, 'thisRepN': 19}>
+34.8013 	DATA 	Keypress: up
+34.8157 	INFO 	Keyboard events cleared
+34.8152 	EXP 	fixation: autoDraw = False
+34.8152 	EXP 	grating: autoDraw = False
+34.8152 	EXP 	grating: ori = 0.0
+34.8152 	EXP 	fixation: autoDraw = True
+35.8143 	EXP 	fixation: autoDraw = False
+35.8143 	EXP 	grating: autoDraw = True
+36.1139 	EXP 	grating: autoDraw = False
+36.2823 	EXP 	New trial (rep=20, index=0): <Trial 20 (0 in rep 20) data={'thisN': 20, 'thisTrialN': 0, 'thisRepN': 20}>
+36.2837 	DATA 	Keypress: up
+36.2978 	INFO 	Keyboard events cleared
+36.2972 	EXP 	fixation: autoDraw = False
+36.2972 	EXP 	grating: autoDraw = False
+36.2972 	EXP 	grating: ori = 3.0
+36.2972 	EXP 	fixation: autoDraw = True
+37.2964 	EXP 	fixation: autoDraw = False
+37.2964 	EXP 	grating: autoDraw = True
+37.5959 	EXP 	grating: autoDraw = False
+37.7307 	EXP 	New trial (rep=21, index=0): <Trial 21 (0 in rep 21) data={'thisN': 21, 'thisTrialN': 0, 'thisRepN': 21}>
+37.7321 	DATA 	Keypress: up
+37.7463 	INFO 	Keyboard events cleared
+37.7459 	EXP 	fixation: autoDraw = False
+37.7459 	EXP 	grating: autoDraw = False
+37.7459 	EXP 	grating: ori = 0.0
+37.7459 	EXP 	fixation: autoDraw = True
+38.7452 	EXP 	fixation: autoDraw = False
+38.7452 	EXP 	grating: autoDraw = True
+39.0448 	EXP 	grating: autoDraw = False
+39.3127 	EXP 	New trial (rep=22, index=0): <Trial 22 (0 in rep 22) data={'thisN': 22, 'thisTrialN': 0, 'thisRepN': 22}>
+39.3139 	DATA 	Keypress: up
+39.3284 	INFO 	Keyboard events cleared
+39.3279 	EXP 	fixation: autoDraw = False
+39.3279 	EXP 	grating: autoDraw = False
+39.3279 	EXP 	grating: ori = 0.0
+39.3279 	EXP 	fixation: autoDraw = True
+40.3272 	EXP 	fixation: autoDraw = False
+40.3272 	EXP 	grating: autoDraw = True
+40.6269 	EXP 	grating: autoDraw = False
+40.8283 	EXP 	New trial (rep=23, index=0): <Trial 23 (0 in rep 23) data={'thisN': 23, 'thisTrialN': 0, 'thisRepN': 23}>
+40.8297 	DATA 	Keypress: up
+40.8439 	INFO 	Keyboard events cleared
+40.8435 	EXP 	fixation: autoDraw = False
+40.8435 	EXP 	grating: autoDraw = False
+40.8435 	EXP 	grating: ori = 0.0
+40.8435 	EXP 	fixation: autoDraw = True
+41.8423 	EXP 	grating: autoDraw = True
+41.8591 	EXP 	fixation: autoDraw = False
+42.1420 	EXP 	grating: autoDraw = False
+42.2776 	EXP 	New trial (rep=24, index=0): <Trial 24 (0 in rep 24) data={'thisN': 24, 'thisTrialN': 0, 'thisRepN': 24}>
+42.2800 	DATA 	Keypress: up
+42.2929 	INFO 	Keyboard events cleared
+42.2920 	EXP 	fixation: autoDraw = False
+42.2920 	EXP 	grating: autoDraw = False
+42.2920 	EXP 	grating: ori = 0.0
+42.2920 	EXP 	fixation: autoDraw = True
+43.2912 	EXP 	fixation: autoDraw = False
+43.2912 	EXP 	grating: autoDraw = True
+43.5908 	EXP 	grating: autoDraw = False
+43.7600 	DATA 	Keypress: up
+43.7753 	EXP 	New trial (rep=25, index=0): <Trial 25 (0 in rep 25) data={'thisN': 25, 'thisTrialN': 0, 'thisRepN': 25}>
+43.7913 	INFO 	Keyboard events cleared
+43.7906 	EXP 	fixation: autoDraw = False
+43.7906 	EXP 	grating: autoDraw = False
+43.7906 	EXP 	grating: ori = 0.0
+43.7906 	EXP 	fixation: autoDraw = True
+44.7900 	EXP 	fixation: autoDraw = False
+44.7900 	EXP 	grating: autoDraw = True
+45.0896 	EXP 	grating: autoDraw = False
+45.3746 	EXP 	New trial (rep=26, index=0): <Trial 26 (0 in rep 26) data={'thisN': 26, 'thisTrialN': 0, 'thisRepN': 26}>
+45.3758 	DATA 	Keypress: up
+45.3898 	INFO 	Keyboard events cleared
+45.3893 	EXP 	fixation: autoDraw = False
+45.3893 	EXP 	grating: autoDraw = False
+45.3893 	EXP 	grating: ori = 0.0
+45.3893 	EXP 	fixation: autoDraw = True
+46.3884 	EXP 	grating: autoDraw = True
+46.4050 	EXP 	fixation: autoDraw = False
+46.6884 	EXP 	grating: autoDraw = False
+46.8398 	EXP 	New trial (rep=27, index=0): <Trial 27 (0 in rep 27) data={'thisN': 27, 'thisTrialN': 0, 'thisRepN': 27}>
+46.8413 	DATA 	Keypress: up
+46.8553 	INFO 	Keyboard events cleared
+46.8548 	EXP 	fixation: autoDraw = False
+46.8548 	EXP 	grating: autoDraw = False
+46.8548 	EXP 	grating: ori = 0.0
+46.8548 	EXP 	fixation: autoDraw = True
+47.8538 	EXP 	fixation: autoDraw = False
+47.8538 	EXP 	grating: autoDraw = True
+48.1534 	EXP 	grating: autoDraw = False
+48.2216 	EXP 	New trial (rep=28, index=0): <Trial 28 (0 in rep 28) data={'thisN': 28, 'thisTrialN': 0, 'thisRepN': 28}>
+48.2227 	DATA 	Keypress: up
+48.2372 	INFO 	Keyboard events cleared
+48.2367 	EXP 	fixation: autoDraw = False
+48.2367 	EXP 	grating: autoDraw = False
+48.2367 	EXP 	grating: ori = 0.0
+48.2367 	EXP 	fixation: autoDraw = True
+49.2360 	EXP 	fixation: autoDraw = False
+49.2360 	EXP 	grating: autoDraw = True
+49.5358 	EXP 	grating: autoDraw = False
+49.6872 	EXP 	New trial (rep=29, index=0): <Trial 29 (0 in rep 29) data={'thisN': 29, 'thisTrialN': 0, 'thisRepN': 29}>
+49.6888 	DATA 	Keypress: up
+49.7028 	INFO 	Keyboard events cleared
+49.7022 	EXP 	fixation: autoDraw = False
+49.7022 	EXP 	grating: autoDraw = False
+49.7022 	EXP 	grating: ori = 0.0
+49.7022 	EXP 	fixation: autoDraw = True
+50.7015 	EXP 	fixation: autoDraw = False
+50.7015 	EXP 	grating: autoDraw = True
+51.0014 	EXP 	grating: autoDraw = False
+51.2030 	EXP 	New trial (rep=30, index=0): <Trial 30 (0 in rep 30) data={'thisN': 30, 'thisTrialN': 0, 'thisRepN': 30}>
+51.2045 	DATA 	Keypress: up
+51.2184 	INFO 	Keyboard events cleared
+51.2179 	EXP 	fixation: autoDraw = False
+51.2179 	EXP 	grating: autoDraw = False
+51.2179 	EXP 	grating: ori = 2.0
+51.2179 	EXP 	fixation: autoDraw = True
+52.2173 	EXP 	fixation: autoDraw = False
+52.2173 	EXP 	grating: autoDraw = True
+52.5171 	EXP 	grating: autoDraw = False
+52.6691 	EXP 	New trial (rep=31, index=0): <Trial 31 (0 in rep 31) data={'thisN': 31, 'thisTrialN': 0, 'thisRepN': 31}>
+52.6709 	DATA 	Keypress: down
+52.6840 	INFO 	Keyboard events cleared
+52.6834 	EXP 	fixation: autoDraw = False
+52.6834 	EXP 	grating: autoDraw = False
+52.6834 	EXP 	grating: ori = -4.0
+52.6834 	EXP 	fixation: autoDraw = True
+53.6827 	EXP 	fixation: autoDraw = False
+53.6827 	EXP 	grating: autoDraw = True
+53.9825 	EXP 	grating: autoDraw = False
+54.0674 	EXP 	New trial (rep=32, index=0): <Trial 32 (0 in rep 32) data={'thisN': 32, 'thisTrialN': 0, 'thisRepN': 32}>
+54.0689 	DATA 	Keypress: up
+54.0831 	INFO 	Keyboard events cleared
+54.0824 	EXP 	fixation: autoDraw = False
+54.0824 	EXP 	grating: autoDraw = False
+54.0824 	EXP 	grating: ori = 0.0
+54.0824 	EXP 	fixation: autoDraw = True
+55.0815 	EXP 	fixation: autoDraw = False
+55.0815 	EXP 	grating: autoDraw = True
+55.3814 	EXP 	grating: autoDraw = False
+56.0318 	EXP 	New trial (rep=33, index=0): <Trial 33 (0 in rep 33) data={'thisN': 33, 'thisTrialN': 0, 'thisRepN': 33}>
+56.0330 	DATA 	Keypress: up
+56.0477 	INFO 	Keyboard events cleared
+56.0473 	EXP 	fixation: autoDraw = False
+56.0473 	EXP 	grating: autoDraw = False
+56.0473 	EXP 	grating: ori = -4.0
+56.0473 	EXP 	fixation: autoDraw = True
+57.0460 	EXP 	grating: autoDraw = True
+57.0625 	EXP 	fixation: autoDraw = False
+57.3454 	EXP 	grating: autoDraw = False
+57.6634 	EXP 	New trial (rep=34, index=0): <Trial 34 (0 in rep 34) data={'thisN': 34, 'thisTrialN': 0, 'thisRepN': 34}>
+57.6650 	DATA 	Keypress: down
+57.6790 	INFO 	Keyboard events cleared
+57.6785 	EXP 	fixation: autoDraw = False
+57.6785 	EXP 	grating: autoDraw = False
+57.6785 	EXP 	grating: ori = 0.0
+57.6785 	EXP 	fixation: autoDraw = True
+58.6779 	EXP 	fixation: autoDraw = False
+58.6779 	EXP 	grating: autoDraw = True
+58.9774 	EXP 	grating: autoDraw = False
+59.4452 	EXP 	New trial (rep=35, index=0): <Trial 35 (0 in rep 35) data={'thisN': 35, 'thisTrialN': 0, 'thisRepN': 35}>
+59.4464 	DATA 	Keypress: up
+59.4608 	INFO 	Keyboard events cleared
+59.4603 	EXP 	fixation: autoDraw = False
+59.4603 	EXP 	grating: autoDraw = False
+59.4603 	EXP 	grating: ori = 0.0
+59.4603 	EXP 	fixation: autoDraw = True
+60.4597 	EXP 	fixation: autoDraw = False
+60.4597 	EXP 	grating: autoDraw = True
+60.7595 	EXP 	grating: autoDraw = False
+60.9609 	EXP 	New trial (rep=36, index=0): <Trial 36 (0 in rep 36) data={'thisN': 36, 'thisTrialN': 0, 'thisRepN': 36}>
+60.9622 	DATA 	Keypress: up
+60.9766 	INFO 	Keyboard events cleared
+60.9761 	EXP 	fixation: autoDraw = False
+60.9761 	EXP 	grating: autoDraw = False
+60.9761 	EXP 	grating: ori = -3.0
+60.9761 	EXP 	fixation: autoDraw = True
+61.9753 	EXP 	fixation: autoDraw = False
+61.9753 	EXP 	grating: autoDraw = True
+62.2750 	EXP 	grating: autoDraw = False
+62.5932 	EXP 	New trial (rep=37, index=0): <Trial 37 (0 in rep 37) data={'thisN': 37, 'thisTrialN': 0, 'thisRepN': 37}>
+62.5948 	DATA 	Keypress: down
+62.6089 	INFO 	Keyboard events cleared
+62.6083 	EXP 	fixation: autoDraw = False
+62.6083 	EXP 	grating: autoDraw = False
+62.6083 	EXP 	grating: ori = 0.0
+62.6083 	EXP 	fixation: autoDraw = True
+63.6075 	EXP 	fixation: autoDraw = False
+63.6075 	EXP 	grating: autoDraw = True
+63.9072 	EXP 	grating: autoDraw = False
+64.0252 	EXP 	New trial (rep=38, index=0): <Trial 38 (0 in rep 38) data={'thisN': 38, 'thisTrialN': 0, 'thisRepN': 38}>
+64.0266 	DATA 	Keypress: up
+64.0410 	INFO 	Keyboard events cleared
+64.0404 	EXP 	fixation: autoDraw = False
+64.0404 	EXP 	grating: autoDraw = False
+64.0404 	EXP 	grating: ori = -4.0
+64.0404 	EXP 	fixation: autoDraw = True
+65.0396 	EXP 	fixation: autoDraw = False
+65.0396 	EXP 	grating: autoDraw = True
+65.3391 	EXP 	grating: autoDraw = False
+65.6242 	EXP 	New trial (rep=39, index=0): <Trial 39 (0 in rep 39) data={'thisN': 39, 'thisTrialN': 0, 'thisRepN': 39}>
+65.6259 	DATA 	Keypress: down
+65.6398 	INFO 	Keyboard events cleared
+65.6391 	EXP 	fixation: autoDraw = False
+65.6391 	EXP 	grating: autoDraw = False
+65.6391 	EXP 	grating: ori = 0.0
+65.6391 	EXP 	fixation: autoDraw = True
+66.6382 	EXP 	grating: autoDraw = True
+66.6548 	EXP 	fixation: autoDraw = False
+66.9378 	EXP 	grating: autoDraw = False
+67.3560 	EXP 	New trial (rep=40, index=0): <Trial 40 (0 in rep 40) data={'thisN': 40, 'thisTrialN': 0, 'thisRepN': 40}>
+67.3577 	DATA 	Keypress: up
+67.3715 	INFO 	Keyboard events cleared
+67.3708 	EXP 	fixation: autoDraw = False
+67.3708 	EXP 	grating: autoDraw = False
+67.3708 	EXP 	grating: ori = -4.0
+67.3708 	EXP 	fixation: autoDraw = True
+68.3699 	EXP 	fixation: autoDraw = False
+68.3699 	EXP 	grating: autoDraw = True
+68.6696 	EXP 	grating: autoDraw = False
+68.9210 	EXP 	New trial (rep=41, index=0): <Trial 41 (0 in rep 41) data={'thisN': 41, 'thisTrialN': 0, 'thisRepN': 41}>
+68.9223 	DATA 	Keypress: down
+68.9366 	INFO 	Keyboard events cleared
+68.9361 	EXP 	fixation: autoDraw = False
+68.9361 	EXP 	grating: autoDraw = False
+68.9361 	EXP 	grating: ori = 0.0
+68.9361 	EXP 	fixation: autoDraw = True
+69.9354 	EXP 	fixation: autoDraw = False
+69.9354 	EXP 	grating: autoDraw = True
+70.2350 	EXP 	grating: autoDraw = False
+70.5200 	DATA 	Keypress: up
+70.5360 	EXP 	New trial (rep=42, index=0): <Trial 42 (0 in rep 42) data={'thisN': 42, 'thisTrialN': 0, 'thisRepN': 42}>
+70.5518 	INFO 	Keyboard events cleared
+70.5513 	EXP 	fixation: autoDraw = False
+70.5513 	EXP 	grating: autoDraw = False
+70.5513 	EXP 	grating: ori = 1.0
+70.5513 	EXP 	fixation: autoDraw = True
+71.5505 	EXP 	fixation: autoDraw = False
+71.5505 	EXP 	grating: autoDraw = True
+71.8501 	EXP 	grating: autoDraw = False
+72.0017 	EXP 	New trial (rep=43, index=0): <Trial 43 (0 in rep 43) data={'thisN': 43, 'thisTrialN': 0, 'thisRepN': 43}>
+72.0031 	DATA 	Keypress: down
+72.0172 	INFO 	Keyboard events cleared
+72.0166 	EXP 	fixation: autoDraw = False
+72.0166 	EXP 	grating: autoDraw = False
+72.0166 	EXP 	grating: ori = 3.0
+72.0166 	EXP 	fixation: autoDraw = True
+73.0161 	EXP 	fixation: autoDraw = False
+73.0161 	EXP 	grating: autoDraw = True
+73.3156 	EXP 	grating: autoDraw = False
+73.5339 	EXP 	New trial (rep=44, index=0): <Trial 44 (0 in rep 44) data={'thisN': 44, 'thisTrialN': 0, 'thisRepN': 44}>
+73.5354 	DATA 	Keypress: down
+73.5492 	INFO 	Keyboard events cleared
+73.5486 	EXP 	fixation: autoDraw = False
+73.5486 	EXP 	grating: autoDraw = False
+73.5486 	EXP 	grating: ori = 1.0
+73.5486 	EXP 	fixation: autoDraw = True
+74.5480 	EXP 	fixation: autoDraw = False
+74.5480 	EXP 	grating: autoDraw = True
+74.8477 	EXP 	grating: autoDraw = False
+75.1331 	EXP 	New trial (rep=45, index=0): <Trial 45 (0 in rep 45) data={'thisN': 45, 'thisTrialN': 0, 'thisRepN': 45}>
+75.1348 	DATA 	Keypress: down
+75.1480 	INFO 	Keyboard events cleared
+75.1474 	EXP 	fixation: autoDraw = False
+75.1474 	EXP 	grating: autoDraw = False
+75.1474 	EXP 	grating: ori = 1.0
+75.1474 	EXP 	fixation: autoDraw = True
+76.1466 	EXP 	fixation: autoDraw = False
+76.1466 	EXP 	grating: autoDraw = True
+76.4462 	EXP 	grating: autoDraw = False
+76.5809 	EXP 	New trial (rep=46, index=0): <Trial 46 (0 in rep 46) data={'thisN': 46, 'thisTrialN': 0, 'thisRepN': 46}>
+76.5822 	DATA 	Keypress: down
+76.5967 	INFO 	Keyboard events cleared
+76.5961 	EXP 	fixation: autoDraw = False
+76.5961 	EXP 	grating: autoDraw = False
+76.5961 	EXP 	grating: ori = 1.0
+76.5961 	EXP 	fixation: autoDraw = True
+77.5954 	EXP 	fixation: autoDraw = False
+77.5954 	EXP 	grating: autoDraw = True
+77.8950 	EXP 	grating: autoDraw = False
+78.1796 	EXP 	New trial (rep=47, index=0): <Trial 47 (0 in rep 47) data={'thisN': 47, 'thisTrialN': 0, 'thisRepN': 47}>
+78.1811 	DATA 	Keypress: down
+78.1952 	INFO 	Keyboard events cleared
+78.1946 	EXP 	fixation: autoDraw = False
+78.1946 	EXP 	grating: autoDraw = False
+78.1946 	EXP 	grating: ori = 4.0
+78.1946 	EXP 	fixation: autoDraw = True
+79.1941 	EXP 	fixation: autoDraw = False
+79.1941 	EXP 	grating: autoDraw = True
+79.4936 	EXP 	grating: autoDraw = False
+79.6281 	EXP 	New trial (rep=48, index=0): <Trial 48 (0 in rep 48) data={'thisN': 48, 'thisTrialN': 0, 'thisRepN': 48}>
+79.6294 	DATA 	Keypress: down
+79.6440 	INFO 	Keyboard events cleared
+79.6435 	EXP 	fixation: autoDraw = False
+79.6435 	EXP 	grating: autoDraw = False
+79.6435 	EXP 	grating: ori = -2.0
+79.6435 	EXP 	fixation: autoDraw = True
+80.6427 	EXP 	fixation: autoDraw = False
+80.6427 	EXP 	grating: autoDraw = True
+80.9422 	EXP 	grating: autoDraw = False
+81.1604 	EXP 	New trial (rep=49, index=0): <Trial 49 (0 in rep 49) data={'thisN': 49, 'thisTrialN': 0, 'thisRepN': 49}>
+81.1619 	DATA 	Keypress: up
+81.1761 	INFO 	Keyboard events cleared
+81.1755 	EXP 	fixation: autoDraw = False
+81.1755 	EXP 	grating: autoDraw = False
+81.1755 	EXP 	grating: ori = 0.0
+81.1755 	EXP 	fixation: autoDraw = True
+82.1745 	EXP 	fixation: autoDraw = False
+82.1745 	EXP 	grating: autoDraw = True
+82.4744 	EXP 	grating: autoDraw = False
+82.6754 	EXP 	New trial (rep=50, index=0): <Trial 50 (0 in rep 50) data={'thisN': 50, 'thisTrialN': 0, 'thisRepN': 50}>
+82.6767 	DATA 	Keypress: up
+82.6912 	INFO 	Keyboard events cleared
+82.6906 	EXP 	fixation: autoDraw = False
+82.6906 	EXP 	grating: autoDraw = False
+82.6906 	EXP 	grating: ori = 0.0
+82.6906 	EXP 	fixation: autoDraw = True
+83.6899 	EXP 	fixation: autoDraw = False
+83.6899 	EXP 	grating: autoDraw = True
+83.9896 	EXP 	grating: autoDraw = False
+84.2742 	EXP 	New trial (rep=51, index=0): <Trial 51 (0 in rep 51) data={'thisN': 51, 'thisTrialN': 0, 'thisRepN': 51}>
+84.2755 	DATA 	Keypress: down
+84.2899 	INFO 	Keyboard events cleared
+84.2894 	EXP 	fixation: autoDraw = False
+84.2894 	EXP 	grating: autoDraw = False
+84.2894 	EXP 	grating: ori = 0.0
+84.2894 	EXP 	fixation: autoDraw = True
+85.2886 	EXP 	fixation: autoDraw = False
+85.2886 	EXP 	grating: autoDraw = True
+85.5882 	EXP 	grating: autoDraw = False
+85.7560 	EXP 	New trial (rep=52, index=0): <Trial 52 (0 in rep 52) data={'thisN': 52, 'thisTrialN': 0, 'thisRepN': 52}>
+85.7572 	DATA 	Keypress: down
+85.7718 	INFO 	Keyboard events cleared
+85.7714 	EXP 	fixation: autoDraw = False
+85.7714 	EXP 	grating: autoDraw = False
+85.7714 	EXP 	grating: ori = -3.0
+85.7714 	EXP 	fixation: autoDraw = True
+86.7706 	EXP 	fixation: autoDraw = False
+86.7706 	EXP 	grating: autoDraw = True
+87.0702 	EXP 	grating: autoDraw = False
+87.6548 	EXP 	New trial (rep=53, index=0): <Trial 53 (0 in rep 53) data={'thisN': 53, 'thisTrialN': 0, 'thisRepN': 53}>
+87.6562 	DATA 	Keypress: up
+87.6703 	INFO 	Keyboard events cleared
+87.6697 	EXP 	fixation: autoDraw = False
+87.6697 	EXP 	grating: autoDraw = False
+87.6697 	EXP 	grating: ori = 1.0
+87.6697 	EXP 	fixation: autoDraw = True
+88.6689 	EXP 	fixation: autoDraw = False
+88.6689 	EXP 	grating: autoDraw = True
+88.9687 	EXP 	grating: autoDraw = False
+89.2369 	EXP 	New trial (rep=54, index=0): <Trial 54 (0 in rep 54) data={'thisN': 54, 'thisTrialN': 0, 'thisRepN': 54}>
+89.2396 	DATA 	Keypress: up
+89.2524 	INFO 	Keyboard events cleared
+89.2517 	EXP 	fixation: autoDraw = False
+89.2517 	EXP 	grating: autoDraw = False
+89.2517 	EXP 	grating: ori = 4.0
+89.2517 	EXP 	fixation: autoDraw = True
+90.2508 	EXP 	fixation: autoDraw = False
+90.2508 	EXP 	grating: autoDraw = True
+90.5506 	EXP 	grating: autoDraw = False
+90.7860 	EXP 	New trial (rep=55, index=0): <Trial 55 (0 in rep 55) data={'thisN': 55, 'thisTrialN': 0, 'thisRepN': 55}>
+90.7877 	DATA 	Keypress: down
+90.8010 	INFO 	Keyboard events cleared
+90.8003 	EXP 	fixation: autoDraw = False
+90.8003 	EXP 	grating: autoDraw = False
+90.8003 	EXP 	grating: ori = 0.0
+90.8003 	EXP 	fixation: autoDraw = True
+91.7996 	EXP 	fixation: autoDraw = False
+91.7996 	EXP 	grating: autoDraw = True
+92.0991 	EXP 	grating: autoDraw = False
+92.4838 	EXP 	New trial (rep=56, index=0): <Trial 56 (0 in rep 56) data={'thisN': 56, 'thisTrialN': 0, 'thisRepN': 56}>
+92.4859 	DATA 	Keypress: down
+92.4993 	INFO 	Keyboard events cleared
+92.4988 	EXP 	fixation: autoDraw = False
+92.4988 	EXP 	grating: autoDraw = False
+92.4988 	EXP 	grating: ori = -4.0
+92.4988 	EXP 	fixation: autoDraw = True
+93.4982 	EXP 	fixation: autoDraw = False
+93.4982 	EXP 	grating: autoDraw = True
+93.7976 	EXP 	grating: autoDraw = False
+94.0658 	EXP 	New trial (rep=57, index=0): <Trial 57 (0 in rep 57) data={'thisN': 57, 'thisTrialN': 0, 'thisRepN': 57}>
+94.0672 	DATA 	Keypress: down
+94.0812 	INFO 	Keyboard events cleared
+94.0807 	EXP 	fixation: autoDraw = False
+94.0807 	EXP 	grating: autoDraw = False
+94.0807 	EXP 	grating: ori = 1.0
+94.0807 	EXP 	fixation: autoDraw = True
+95.0802 	EXP 	fixation: autoDraw = False
+95.0802 	EXP 	grating: autoDraw = True
+95.3796 	EXP 	grating: autoDraw = False
+95.7652 	EXP 	New trial (rep=58, index=0): <Trial 58 (0 in rep 58) data={'thisN': 58, 'thisTrialN': 0, 'thisRepN': 58}>
+95.7668 	DATA 	Keypress: up
+95.7799 	INFO 	Keyboard events cleared
+95.7794 	EXP 	fixation: autoDraw = False
+95.7794 	EXP 	grating: autoDraw = False
+95.7794 	EXP 	grating: ori = -4.0
+95.7794 	EXP 	fixation: autoDraw = True
+96.7785 	EXP 	grating: autoDraw = True
+96.7951 	EXP 	fixation: autoDraw = False
+97.0781 	EXP 	grating: autoDraw = False
+97.5293 	EXP 	New trial (rep=59, index=0): <Trial 59 (0 in rep 59) data={'thisN': 59, 'thisTrialN': 0, 'thisRepN': 59}>
+97.5309 	DATA 	Keypress: down
+97.5450 	INFO 	Keyboard events cleared
+97.5444 	EXP 	fixation: autoDraw = False
+97.5444 	EXP 	grating: autoDraw = False
+97.5444 	EXP 	grating: ori = 1.0
+97.5444 	EXP 	fixation: autoDraw = True
+98.5438 	EXP 	fixation: autoDraw = False
+98.5438 	EXP 	grating: autoDraw = True
+98.8432 	EXP 	grating: autoDraw = False
+99.0612 	EXP 	New trial (rep=60, index=0): <Trial 60 (0 in rep 60) data={'thisN': 60, 'thisTrialN': 0, 'thisRepN': 60}>
+99.0624 	DATA 	Keypress: down
+99.0769 	INFO 	Keyboard events cleared
+99.0764 	EXP 	fixation: autoDraw = False
+99.0764 	EXP 	grating: autoDraw = False
+99.0764 	EXP 	grating: ori = 0.0
+99.0764 	EXP 	fixation: autoDraw = True
+100.0756 	EXP 	fixation: autoDraw = False
+100.0756 	EXP 	grating: autoDraw = True
+100.3755 	EXP 	grating: autoDraw = False
+101.2761 	EXP 	New trial (rep=61, index=0): <Trial 61 (0 in rep 61) data={'thisN': 61, 'thisTrialN': 0, 'thisRepN': 61}>
+101.2775 	DATA 	Keypress: up
+101.2918 	INFO 	Keyboard events cleared
+101.2912 	EXP 	fixation: autoDraw = False
+101.2912 	EXP 	grating: autoDraw = False
+101.2912 	EXP 	grating: ori = 1.0
+101.2912 	EXP 	fixation: autoDraw = True
+102.2904 	EXP 	fixation: autoDraw = False
+102.2904 	EXP 	grating: autoDraw = True
+102.5900 	EXP 	grating: autoDraw = False
+103.2078 	EXP 	New trial (rep=62, index=0): <Trial 62 (0 in rep 62) data={'thisN': 62, 'thisTrialN': 0, 'thisRepN': 62}>
+103.2093 	DATA 	Keypress: up
+103.2234 	INFO 	Keyboard events cleared
+103.2227 	EXP 	fixation: autoDraw = False
+103.2227 	EXP 	grating: autoDraw = False
+103.2227 	EXP 	grating: ori = 2.0
+103.2227 	EXP 	fixation: autoDraw = True
+104.2220 	EXP 	fixation: autoDraw = False
+104.2220 	EXP 	grating: autoDraw = True
+104.5216 	EXP 	grating: autoDraw = False
+104.7396 	EXP 	New trial (rep=63, index=0): <Trial 63 (0 in rep 63) data={'thisN': 63, 'thisTrialN': 0, 'thisRepN': 63}>
+104.7410 	DATA 	Keypress: down
+104.7554 	INFO 	Keyboard events cleared
+104.7548 	EXP 	fixation: autoDraw = False
+104.7548 	EXP 	grating: autoDraw = False
+104.7548 	EXP 	grating: ori = 4.0
+104.7548 	EXP 	fixation: autoDraw = True
+105.7541 	EXP 	fixation: autoDraw = False
+105.7541 	EXP 	grating: autoDraw = True
+106.0537 	EXP 	grating: autoDraw = False
+106.3055 	DATA 	Keypress: down
+106.3215 	EXP 	New trial (rep=64, index=0): <Trial 64 (0 in rep 64) data={'thisN': 64, 'thisTrialN': 0, 'thisRepN': 64}>
+106.3373 	INFO 	Keyboard events cleared
+106.3368 	EXP 	fixation: autoDraw = False
+106.3368 	EXP 	grating: autoDraw = False
+106.3368 	EXP 	grating: ori = 0.0
+106.3368 	EXP 	fixation: autoDraw = True
+107.3360 	EXP 	fixation: autoDraw = False
+107.3360 	EXP 	grating: autoDraw = True
+107.6356 	EXP 	grating: autoDraw = False
+107.9538 	EXP 	New trial (rep=65, index=0): <Trial 65 (0 in rep 65) data={'thisN': 65, 'thisTrialN': 0, 'thisRepN': 65}>
+107.9553 	DATA 	Keypress: up
+107.9693 	INFO 	Keyboard events cleared
+107.9687 	EXP 	fixation: autoDraw = False
+107.9687 	EXP 	grating: autoDraw = False
+107.9687 	EXP 	grating: ori = -3.0
+107.9687 	EXP 	fixation: autoDraw = True
+108.9681 	EXP 	fixation: autoDraw = False
+108.9681 	EXP 	grating: autoDraw = True
+109.2678 	EXP 	grating: autoDraw = False
+109.5190 	EXP 	New trial (rep=66, index=0): <Trial 66 (0 in rep 66) data={'thisN': 66, 'thisTrialN': 0, 'thisRepN': 66}>
+109.5205 	DATA 	Keypress: down
+109.5347 	INFO 	Keyboard events cleared
+109.5340 	EXP 	fixation: autoDraw = False
+109.5340 	EXP 	grating: autoDraw = False
+109.5340 	EXP 	grating: ori = 0.0
+109.5340 	EXP 	fixation: autoDraw = True
+110.5331 	EXP 	fixation: autoDraw = False
+110.5331 	EXP 	grating: autoDraw = True
+110.8327 	EXP 	grating: autoDraw = False
+111.2006 	EXP 	New trial (rep=67, index=0): <Trial 67 (0 in rep 67) data={'thisN': 67, 'thisTrialN': 0, 'thisRepN': 67}>
+111.2020 	DATA 	Keypress: up
+111.2165 	INFO 	Keyboard events cleared
+111.2159 	EXP 	fixation: autoDraw = False
+111.2159 	EXP 	grating: autoDraw = False
+111.2159 	EXP 	grating: ori = -2.0
+111.2159 	EXP 	fixation: autoDraw = True
+112.2150 	EXP 	fixation: autoDraw = False
+112.2150 	EXP 	grating: autoDraw = True
+112.5148 	EXP 	grating: autoDraw = False
+113.4987 	EXP 	New trial (rep=68, index=0): <Trial 68 (0 in rep 68) data={'thisN': 68, 'thisTrialN': 0, 'thisRepN': 68}>
+113.5001 	DATA 	Keypress: down
+113.5145 	INFO 	Keyboard events cleared
+113.5140 	EXP 	fixation: autoDraw = False
+113.5140 	EXP 	grating: autoDraw = False
+113.5140 	EXP 	grating: ori = 1.0
+113.5140 	EXP 	fixation: autoDraw = True
+114.5132 	EXP 	fixation: autoDraw = False
+114.5132 	EXP 	grating: autoDraw = True
+114.8129 	EXP 	grating: autoDraw = False
+115.2971 	EXP 	New trial (rep=69, index=0): <Trial 69 (0 in rep 69) data={'thisN': 69, 'thisTrialN': 0, 'thisRepN': 69}>
+115.2984 	DATA 	Keypress: up
+115.3128 	INFO 	Keyboard events cleared
+115.3123 	EXP 	fixation: autoDraw = False
+115.3123 	EXP 	grating: autoDraw = False
+115.3123 	EXP 	grating: ori = -2.0
+115.3123 	EXP 	fixation: autoDraw = True
+116.3114 	EXP 	fixation: autoDraw = False
+116.3114 	EXP 	grating: autoDraw = True
+116.6111 	EXP 	grating: autoDraw = False
+116.7460 	EXP 	New trial (rep=70, index=0): <Trial 70 (0 in rep 70) data={'thisN': 70, 'thisTrialN': 0, 'thisRepN': 70}>
+116.7474 	DATA 	Keypress: down
+116.7615 	INFO 	Keyboard events cleared
+116.7609 	EXP 	fixation: autoDraw = False
+116.7609 	EXP 	grating: autoDraw = False
+116.7609 	EXP 	grating: ori = 0.0
+116.7609 	EXP 	fixation: autoDraw = True
+117.7603 	EXP 	fixation: autoDraw = False
+117.7603 	EXP 	grating: autoDraw = True
+118.0598 	EXP 	grating: autoDraw = False
+118.2611 	EXP 	New trial (rep=71, index=0): <Trial 71 (0 in rep 71) data={'thisN': 71, 'thisTrialN': 0, 'thisRepN': 71}>
+118.2623 	DATA 	Keypress: up
+118.2769 	INFO 	Keyboard events cleared
+118.2764 	EXP 	fixation: autoDraw = False
+118.2764 	EXP 	grating: autoDraw = False
+118.2764 	EXP 	grating: ori = 0.0
+118.2764 	EXP 	fixation: autoDraw = True
+119.2755 	EXP 	grating: autoDraw = True
+119.2923 	EXP 	fixation: autoDraw = False
+119.5752 	EXP 	grating: autoDraw = False
+119.7433 	EXP 	New trial (rep=72, index=0): <Trial 72 (0 in rep 72) data={'thisN': 72, 'thisTrialN': 0, 'thisRepN': 72}>
+119.7446 	DATA 	Keypress: up
+119.7588 	INFO 	Keyboard events cleared
+119.7584 	EXP 	fixation: autoDraw = False
+119.7584 	EXP 	grating: autoDraw = False
+119.7584 	EXP 	grating: ori = -4.0
+119.7584 	EXP 	fixation: autoDraw = True
+120.7577 	EXP 	fixation: autoDraw = False
+120.7577 	EXP 	grating: autoDraw = True
+121.0573 	EXP 	grating: autoDraw = False
+121.3918 	EXP 	New trial (rep=73, index=0): <Trial 73 (0 in rep 73) data={'thisN': 73, 'thisTrialN': 0, 'thisRepN': 73}>
+121.3933 	DATA 	Keypress: down
+121.4077 	INFO 	Keyboard events cleared
+121.4071 	EXP 	fixation: autoDraw = False
+121.4071 	EXP 	grating: autoDraw = False
+121.4071 	EXP 	grating: ori = -5.0
+121.4071 	EXP 	fixation: autoDraw = True
+122.4061 	EXP 	fixation: autoDraw = False
+122.4061 	EXP 	grating: autoDraw = True
+122.7060 	EXP 	grating: autoDraw = False
+123.1402 	EXP 	New trial (rep=74, index=0): <Trial 74 (0 in rep 74) data={'thisN': 74, 'thisTrialN': 0, 'thisRepN': 74}>
+123.1418 	DATA 	Keypress: down
+123.1559 	INFO 	Keyboard events cleared
+123.1554 	EXP 	fixation: autoDraw = False
+123.1554 	EXP 	grating: autoDraw = False
+123.1554 	EXP 	grating: ori = 0.0
+123.1554 	EXP 	fixation: autoDraw = True
+124.1546 	EXP 	fixation: autoDraw = False
+124.1546 	EXP 	grating: autoDraw = True
+124.4545 	EXP 	grating: autoDraw = False
+124.8058 	EXP 	New trial (rep=75, index=0): <Trial 75 (0 in rep 75) data={'thisN': 75, 'thisTrialN': 0, 'thisRepN': 75}>
+124.8073 	DATA 	Keypress: up
+124.8212 	INFO 	Keyboard events cleared
+124.8206 	EXP 	fixation: autoDraw = False
+124.8206 	EXP 	grating: autoDraw = False
+124.8206 	EXP 	grating: ori = 3.0
+124.8206 	EXP 	fixation: autoDraw = True
+125.8200 	EXP 	fixation: autoDraw = False
+125.8200 	EXP 	grating: autoDraw = True
+126.1196 	EXP 	grating: autoDraw = False
+126.3374 	EXP 	New trial (rep=76, index=0): <Trial 76 (0 in rep 76) data={'thisN': 76, 'thisTrialN': 0, 'thisRepN': 76}>
+126.3387 	DATA 	Keypress: down
+126.3530 	INFO 	Keyboard events cleared
+126.3526 	EXP 	fixation: autoDraw = False
+126.3526 	EXP 	grating: autoDraw = False
+126.3526 	EXP 	grating: ori = 2.0
+126.3526 	EXP 	fixation: autoDraw = True
+127.3518 	EXP 	fixation: autoDraw = False
+127.3518 	EXP 	grating: autoDraw = True
+127.6513 	EXP 	grating: autoDraw = False
+127.8859 	EXP 	New trial (rep=77, index=0): <Trial 77 (0 in rep 77) data={'thisN': 77, 'thisTrialN': 0, 'thisRepN': 77}>
+127.8871 	DATA 	Keypress: down
+127.9017 	INFO 	Keyboard events cleared
+127.9012 	EXP 	fixation: autoDraw = False
+127.9012 	EXP 	grating: autoDraw = False
+127.9012 	EXP 	grating: ori = 0.0
+127.9012 	EXP 	fixation: autoDraw = True
+128.9007 	EXP 	fixation: autoDraw = False
+128.9007 	EXP 	grating: autoDraw = True
+129.2000 	EXP 	grating: autoDraw = False
+129.4344 	EXP 	New trial (rep=78, index=0): <Trial 78 (0 in rep 78) data={'thisN': 78, 'thisTrialN': 0, 'thisRepN': 78}>
+129.4355 	DATA 	Keypress: up
+129.4503 	INFO 	Keyboard events cleared
+129.4498 	EXP 	fixation: autoDraw = False
+129.4498 	EXP 	grating: autoDraw = False
+129.4498 	EXP 	grating: ori = 0.0
+129.4498 	EXP 	fixation: autoDraw = True
+130.4491 	EXP 	fixation: autoDraw = False
+130.4491 	EXP 	grating: autoDraw = True
+130.7487 	EXP 	grating: autoDraw = False
+130.9999 	EXP 	New trial (rep=79, index=0): <Trial 79 (0 in rep 79) data={'thisN': 79, 'thisTrialN': 0, 'thisRepN': 79}>
+131.0011 	DATA 	Keypress: up
+131.0158 	INFO 	Keyboard events cleared
+131.0154 	EXP 	fixation: autoDraw = False
+131.0154 	EXP 	grating: autoDraw = False
+131.0154 	EXP 	grating: ori = 0.0
+131.0154 	EXP 	fixation: autoDraw = True
+132.0145 	EXP 	grating: autoDraw = True
+132.0312 	EXP 	fixation: autoDraw = False
+132.3143 	EXP 	grating: autoDraw = False
+132.4985 	EXP 	New trial (rep=80, index=0): <Trial 80 (0 in rep 80) data={'thisN': 80, 'thisTrialN': 0, 'thisRepN': 80}>
+132.4997 	DATA 	Keypress: up
+132.5145 	INFO 	Keyboard events cleared
+132.5141 	EXP 	fixation: autoDraw = False
+132.5141 	EXP 	grating: autoDraw = False
+132.5141 	EXP 	grating: ori = 0.0
+132.5141 	EXP 	fixation: autoDraw = True
+133.5130 	EXP 	grating: autoDraw = True
+133.5298 	EXP 	fixation: autoDraw = False
+133.8128 	EXP 	grating: autoDraw = False
+134.2142 	EXP 	New trial (rep=81, index=0): <Trial 81 (0 in rep 81) data={'thisN': 81, 'thisTrialN': 0, 'thisRepN': 81}>
+134.2156 	DATA 	Keypress: up
+134.2297 	INFO 	Keyboard events cleared
+134.2291 	EXP 	fixation: autoDraw = False
+134.2291 	EXP 	grating: autoDraw = False
+134.2291 	EXP 	grating: ori = 0.0
+134.2291 	EXP 	fixation: autoDraw = True
+135.2282 	EXP 	fixation: autoDraw = False
+135.2282 	EXP 	grating: autoDraw = True
+135.5279 	EXP 	grating: autoDraw = False
+135.7294 	EXP 	New trial (rep=82, index=0): <Trial 82 (0 in rep 82) data={'thisN': 82, 'thisTrialN': 0, 'thisRepN': 82}>
+135.7309 	DATA 	Keypress: up
+135.7452 	INFO 	Keyboard events cleared
+135.7446 	EXP 	fixation: autoDraw = False
+135.7446 	EXP 	grating: autoDraw = False
+135.7446 	EXP 	grating: ori = 2.0
+135.7446 	EXP 	fixation: autoDraw = True
+136.7438 	EXP 	grating: autoDraw = True
+136.7604 	EXP 	fixation: autoDraw = False
+137.0433 	EXP 	grating: autoDraw = False
+137.2781 	EXP 	New trial (rep=83, index=0): <Trial 83 (0 in rep 83) data={'thisN': 83, 'thisTrialN': 0, 'thisRepN': 83}>
+137.2797 	DATA 	Keypress: down
+137.2935 	INFO 	Keyboard events cleared
+137.2929 	EXP 	fixation: autoDraw = False
+137.2929 	EXP 	grating: autoDraw = False
+137.2929 	EXP 	grating: ori = 0.0
+137.2929 	EXP 	fixation: autoDraw = True
+138.2922 	EXP 	fixation: autoDraw = False
+138.2922 	EXP 	grating: autoDraw = True
+138.5921 	EXP 	grating: autoDraw = False
+138.7933 	EXP 	New trial (rep=84, index=0): <Trial 84 (0 in rep 84) data={'thisN': 84, 'thisTrialN': 0, 'thisRepN': 84}>
+138.7947 	DATA 	Keypress: down
+138.8089 	INFO 	Keyboard events cleared
+138.8084 	EXP 	fixation: autoDraw = False
+138.8084 	EXP 	grating: autoDraw = False
+138.8084 	EXP 	grating: ori = 4.0
+138.8084 	EXP 	fixation: autoDraw = True
+139.8076 	EXP 	fixation: autoDraw = False
+139.8076 	EXP 	grating: autoDraw = True
+140.1073 	EXP 	grating: autoDraw = False
+140.4084 	EXP 	New trial (rep=85, index=0): <Trial 85 (0 in rep 85) data={'thisN': 85, 'thisTrialN': 0, 'thisRepN': 85}>
+140.4096 	DATA 	Keypress: down
+140.4241 	INFO 	Keyboard events cleared
+140.4236 	EXP 	fixation: autoDraw = False
+140.4236 	EXP 	grating: autoDraw = False
+140.4236 	EXP 	grating: ori = 0.0
+140.4236 	EXP 	fixation: autoDraw = True
+141.4229 	EXP 	fixation: autoDraw = False
+141.4229 	EXP 	grating: autoDraw = True
+141.7225 	EXP 	grating: autoDraw = False
+141.8737 	EXP 	New trial (rep=86, index=0): <Trial 86 (0 in rep 86) data={'thisN': 86, 'thisTrialN': 0, 'thisRepN': 86}>
+141.8749 	DATA 	Keypress: up
+141.8897 	INFO 	Keyboard events cleared
+141.8892 	EXP 	fixation: autoDraw = False
+141.8892 	EXP 	grating: autoDraw = False
+141.8892 	EXP 	grating: ori = 0.0
+141.8892 	EXP 	fixation: autoDraw = True
+142.8884 	EXP 	grating: autoDraw = True
+142.9049 	EXP 	fixation: autoDraw = False
+143.1878 	EXP 	grating: autoDraw = False
+143.3225 	EXP 	New trial (rep=87, index=0): <Trial 87 (0 in rep 87) data={'thisN': 87, 'thisTrialN': 0, 'thisRepN': 87}>
+143.3237 	DATA 	Keypress: up
+143.3382 	INFO 	Keyboard events cleared
+143.3377 	EXP 	fixation: autoDraw = False
+143.3377 	EXP 	grating: autoDraw = False
+143.3377 	EXP 	grating: ori = 4.0
+143.3377 	EXP 	fixation: autoDraw = True
+144.3371 	EXP 	fixation: autoDraw = False
+144.3371 	EXP 	grating: autoDraw = True
+144.6367 	EXP 	grating: autoDraw = False
+144.8214 	EXP 	New trial (rep=88, index=0): <Trial 88 (0 in rep 88) data={'thisN': 88, 'thisTrialN': 0, 'thisRepN': 88}>
+144.8229 	DATA 	Keypress: down
+144.8371 	INFO 	Keyboard events cleared
+144.8365 	EXP 	fixation: autoDraw = False
+144.8365 	EXP 	grating: autoDraw = False
+144.8365 	EXP 	grating: ori = 3.0
+144.8365 	EXP 	fixation: autoDraw = True
+145.8358 	EXP 	fixation: autoDraw = False
+145.8358 	EXP 	grating: autoDraw = True
+146.1354 	EXP 	grating: autoDraw = False
+146.3037 	EXP 	New trial (rep=89, index=0): <Trial 89 (0 in rep 89) data={'thisN': 89, 'thisTrialN': 0, 'thisRepN': 89}>
+146.3053 	DATA 	Keypress: down
+146.3191 	INFO 	Keyboard events cleared
+146.3186 	EXP 	fixation: autoDraw = False
+146.3186 	EXP 	grating: autoDraw = False
+146.3186 	EXP 	grating: ori = 2.0
+146.3186 	EXP 	fixation: autoDraw = True
+147.3179 	EXP 	fixation: autoDraw = False
+147.3179 	EXP 	grating: autoDraw = True
+147.6175 	EXP 	grating: autoDraw = False
+148.1016 	EXP 	New trial (rep=90, index=0): <Trial 90 (0 in rep 90) data={'thisN': 90, 'thisTrialN': 0, 'thisRepN': 90}>
+148.1029 	DATA 	Keypress: up
+148.1175 	INFO 	Keyboard events cleared
+148.1170 	EXP 	fixation: autoDraw = False
+148.1170 	EXP 	grating: autoDraw = False
+148.1170 	EXP 	grating: ori = 0.0
+148.1170 	EXP 	fixation: autoDraw = True
+149.1161 	EXP 	fixation: autoDraw = False
+149.1161 	EXP 	grating: autoDraw = True
+149.4157 	EXP 	grating: autoDraw = False
+149.7509 	EXP 	New trial (rep=91, index=0): <Trial 91 (0 in rep 91) data={'thisN': 91, 'thisTrialN': 0, 'thisRepN': 91}>
+149.7524 	DATA 	Keypress: up
+149.7661 	INFO 	Keyboard events cleared
+149.7655 	EXP 	fixation: autoDraw = False
+149.7655 	EXP 	grating: autoDraw = False
+149.7655 	EXP 	grating: ori = -2.0
+149.7655 	EXP 	fixation: autoDraw = True
+150.7647 	EXP 	fixation: autoDraw = False
+150.7647 	EXP 	grating: autoDraw = True
+151.0644 	EXP 	grating: autoDraw = False
+151.3824 	EXP 	New trial (rep=92, index=0): <Trial 92 (0 in rep 92) data={'thisN': 92, 'thisTrialN': 0, 'thisRepN': 92}>
+151.3836 	DATA 	Keypress: up
+151.3980 	INFO 	Keyboard events cleared
+151.3975 	EXP 	fixation: autoDraw = False
+151.3975 	EXP 	grating: autoDraw = False
+151.3975 	EXP 	grating: ori = 0.0
+151.3975 	EXP 	fixation: autoDraw = True
+152.3967 	EXP 	fixation: autoDraw = False
+152.3967 	EXP 	grating: autoDraw = True
+152.6964 	EXP 	grating: autoDraw = False
+153.0476 	EXP 	New trial (rep=93, index=0): <Trial 93 (0 in rep 93) data={'thisN': 93, 'thisTrialN': 0, 'thisRepN': 93}>
+153.0489 	DATA 	Keypress: down
+153.0630 	INFO 	Keyboard events cleared
+153.0625 	EXP 	fixation: autoDraw = False
+153.0625 	EXP 	grating: autoDraw = False
+153.0625 	EXP 	grating: ori = 0.0
+153.0625 	EXP 	fixation: autoDraw = True
+154.0618 	EXP 	fixation: autoDraw = False
+154.0618 	EXP 	grating: autoDraw = True
+154.3614 	EXP 	grating: autoDraw = False
+154.5464 	EXP 	New trial (rep=94, index=0): <Trial 94 (0 in rep 94) data={'thisN': 94, 'thisTrialN': 0, 'thisRepN': 94}>
+154.5480 	DATA 	Keypress: up
+154.5620 	INFO 	Keyboard events cleared
+154.5613 	EXP 	fixation: autoDraw = False
+154.5613 	EXP 	grating: autoDraw = False
+154.5613 	EXP 	grating: ori = 0.0
+154.5613 	EXP 	fixation: autoDraw = True
+155.5606 	EXP 	fixation: autoDraw = False
+155.5606 	EXP 	grating: autoDraw = True
+155.8603 	EXP 	grating: autoDraw = False
+155.9450 	EXP 	New trial (rep=95, index=0): <Trial 95 (0 in rep 95) data={'thisN': 95, 'thisTrialN': 0, 'thisRepN': 95}>
+155.9463 	DATA 	Keypress: up
+155.9605 	INFO 	Keyboard events cleared
+155.9601 	EXP 	fixation: autoDraw = False
+155.9601 	EXP 	grating: autoDraw = False
+155.9601 	EXP 	grating: ori = 1.0
+155.9601 	EXP 	fixation: autoDraw = True
+156.9592 	EXP 	grating: autoDraw = True
+156.9759 	EXP 	fixation: autoDraw = False
+157.2591 	EXP 	grating: autoDraw = False
+157.4933 	EXP 	New trial (rep=96, index=0): <Trial 96 (0 in rep 96) data={'thisN': 96, 'thisTrialN': 0, 'thisRepN': 96}>
+157.4944 	DATA 	Keypress: down
+157.5093 	INFO 	Keyboard events cleared
+157.5089 	EXP 	fixation: autoDraw = False
+157.5089 	EXP 	grating: autoDraw = False
+157.5089 	EXP 	grating: ori = 2.0
+157.5089 	EXP 	fixation: autoDraw = True
+158.5080 	EXP 	grating: autoDraw = True
+158.5248 	EXP 	fixation: autoDraw = False
+158.8076 	EXP 	grating: autoDraw = False
+159.0094 	EXP 	New trial (rep=97, index=0): <Trial 97 (0 in rep 97) data={'thisN': 97, 'thisTrialN': 0, 'thisRepN': 97}>
+159.0114 	DATA 	Keypress: down
+159.0245 	INFO 	Keyboard events cleared
+159.0241 	EXP 	fixation: autoDraw = False
+159.0241 	EXP 	grating: autoDraw = False
+159.0241 	EXP 	grating: ori = 0.0
+159.0241 	EXP 	fixation: autoDraw = True
+160.0234 	EXP 	fixation: autoDraw = False
+160.0234 	EXP 	grating: autoDraw = True
+160.3230 	EXP 	grating: autoDraw = False
+160.7241 	EXP 	New trial (rep=98, index=0): <Trial 98 (0 in rep 98) data={'thisN': 98, 'thisTrialN': 0, 'thisRepN': 98}>
+160.7257 	DATA 	Keypress: up
+160.7398 	INFO 	Keyboard events cleared
+160.7392 	EXP 	fixation: autoDraw = False
+160.7392 	EXP 	grating: autoDraw = False
+160.7392 	EXP 	grating: ori = 0.0
+160.7392 	EXP 	fixation: autoDraw = True
+161.7384 	EXP 	fixation: autoDraw = False
+161.7384 	EXP 	grating: autoDraw = True
+162.0381 	EXP 	grating: autoDraw = False
+162.4561 	DATA 	Keypress: up
+162.4724 	EXP 	New trial (rep=99, index=0): <Trial 99 (0 in rep 99) data={'thisN': 99, 'thisTrialN': 0, 'thisRepN': 99}>
+162.4883 	INFO 	Keyboard events cleared
+162.4878 	EXP 	fixation: autoDraw = False
+162.4878 	EXP 	grating: autoDraw = False
+162.4878 	EXP 	grating: ori = 0.0
+162.4878 	EXP 	fixation: autoDraw = True
+163.4870 	EXP 	fixation: autoDraw = False
+163.4870 	EXP 	grating: autoDraw = True
+163.7866 	EXP 	grating: autoDraw = False
+164.0222 	DATA 	Keypress: up
+164.0530 	EXP 	fixation: autoDraw = False
+164.0530 	EXP 	grating: autoDraw = False
+164.0532 	EXP 	untitled: status = STOPPED
+164.0964 	INFO 	saved data to 'C:\\Users\\DELL\\OneDrive\\Desktop\\PsychoPy\\Signal Detection\\data/0001_untitled_2025-09-08_13h25.54.696.csv'
+164.0990 	INFO 	saved data to C:\Users\DELL\OneDrive\Desktop\PsychoPy\Signal Detection\data/0001_untitled_2025-09-08_13h25.54.696.psydat
