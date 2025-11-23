@@ -1,0 +1,378 @@
+128.0659 	INFO 	Loaded monitor calibration from ['2025_02_12 09:50']
+128.0782 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+129.9085 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000022462F28670>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000022462F286D0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=True, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000022462FE17B0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+129.9086 	EXP 	window1: backgroundImage = ''
+129.9087 	EXP 	window1: backgroundFit = 'none'
+130.1758 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+130.1758 	EXP 	window1: recordFrameIntervals = False
+130.3370 	EXP 	window1: recordFrameIntervals = True
+130.5207 	EXP 	Screen (0) actual frame rate measured at 59.94Hz
+130.5207 	EXP 	window1: recordFrameIntervals = False
+130.6444 	INFO 	keyboard.Keyboard is using ptb backend.
+130.6446 	INFO 	keyboard.Keyboard is using ptb backend.
+130.6447 	INFO 	keyboard.Keyboard is using ptb backend.
+130.6448 	INFO 	keyboard.Keyboard is using ptb backend.
+130.6448 	INFO 	keyboard.Keyboard is using ptb backend.
+130.6449 	INFO 	keyboard.Keyboard is using ptb backend.
+130.6450 	INFO 	keyboard.Keyboard is using ptb backend.
+130.6450 	EXP 	Action Priming Exp: status = STARTED
+130.8072 	EXP 	Created Instruction = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Instruction', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+130.9642 	EXP 	Created writeimg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='writeimg', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+130.9661 	EXP 	Created option1_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='option1_text', opacity=1, ori=0.0, pos=array([-0.3,  0. ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+130.9680 	EXP 	Created option2_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='option2_text', opacity=1, ori=0.0, pos=array([0.3, 0. ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+131.0966 	EXP 	Created walkingimg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='walkingimg', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+131.0988 	EXP 	Created option1_text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='option1_text_3', opacity=1, ori=0.0, pos=array([-0.3,  0. ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+131.1016 	EXP 	Created option2_text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='option2_text_3', opacity=1, ori=0.0, pos=array([0.3, 0. ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+131.2168 	EXP 	Created danceimg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='danceimg', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+131.2191 	EXP 	Created option1_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='option1_text_2', opacity=1, ori=0.0, pos=array([-0.3,  0. ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+131.2215 	EXP 	Created option2_text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='option2_text_2', opacity=1, ori=0.0, pos=array([0.3, 0. ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+131.2775 	EXP 	Created handswingimg = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='handswingimg', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128.0, units='height', win=Window(...))
+131.2789 	EXP 	Created option1_text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='option1_text_4', opacity=1, ori=0.0, pos=array([-0.3,  0. ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+131.2804 	EXP 	Created option2_text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='option2_text_4', opacity=1, ori=0.0, pos=array([0.3, 0. ]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+131.2946 	EXP 	Created thanks = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='thanks', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+0.0028 	EXP 	writing: autoLog = True
+0.0028 	EXP 	walkingvid: autoLog = True
+0.0028 	EXP 	dance: autoLog = True
+0.0028 	EXP 	handswinging: autoLog = True
+0.0100 	INFO 	Keyboard events cleared
+0.0098 	EXP 	Instruction: autoDraw = True
+2.1984 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+2.1988 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+2.2496 	DATA 	Keypress: space
+2.2538 	EXP 	Instruction: autoDraw = False
+2.2538 	EXP 	writing: autoDraw = True
+15.8730 	EXP 	Imported Instructional files/writing_trial.xlsx as conditions, 4 conditions, 8 params
+15.8734 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'imagefile': 'expimages/paintbrush.jpg', 'object': 'paint brush', 'congruency': 'congruent', 'actiontype': 'hand', 'action': 'writing', 'option1': 'Paint Brush', 'option2': 'Bat', 'corr_res': 1, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+15.8939 	EXP 	writing: autoDraw = False
+15.8939 	EXP 	writing: autoDraw = False
+15.8939 	EXP 	writeimg: image = 'expimages/paintbrush.jpg'
+15.8939 	EXP 	option1_text: height = 0.05
+15.8939 	EXP 	option1_text: height = 0.05
+15.8939 	EXP 	option1_text: height = 0.05
+15.8939 	EXP 	option1_text: text = 'Paint Brush'
+15.8939 	EXP 	option2_text: height = 0.05
+15.8939 	EXP 	option2_text: height = 0.05
+15.8939 	EXP 	option2_text: height = 0.05
+15.8939 	EXP 	option2_text: text = 'Bat'
+16.0102 	EXP 	writeimg: autoDraw = True
+16.3105 	EXP 	writeimg: autoDraw = False
+16.8767 	INFO 	Keyboard events cleared
+16.8766 	EXP 	option1_text: autoDraw = True
+16.8766 	EXP 	option2_text: autoDraw = True
+17.2277 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'imagefile': 'expimages/crayons.jpg', 'object': 'crayon', 'congruency': 'congruent', 'actiontype': 'hand', 'action': 'writing', 'option1': 'Bottles', 'option2': 'Crayons', 'corr_res': 0, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+17.2461 	DATA 	Keypress: 1
+17.2486 	EXP 	writeimg: autoDraw = False
+17.2486 	EXP 	option1_text: autoDraw = False
+17.2486 	EXP 	option2_text: autoDraw = False
+17.2486 	EXP 	writeimg: image = 'expimages/crayons.jpg'
+17.2486 	EXP 	option1_text: height = 0.05
+17.2486 	EXP 	option1_text: height = 0.05
+17.2486 	EXP 	option1_text: height = 0.05
+17.2486 	EXP 	option1_text: text = 'Bottles'
+17.2486 	EXP 	option2_text: height = 0.05
+17.2486 	EXP 	option2_text: height = 0.05
+17.2486 	EXP 	option2_text: height = 0.05
+17.2486 	EXP 	option2_text: text = 'Crayons'
+17.3268 	EXP 	writeimg: autoDraw = True
+17.6264 	EXP 	writeimg: autoDraw = False
+18.2425 	INFO 	Keyboard events cleared
+18.2424 	EXP 	option1_text: autoDraw = True
+18.2424 	EXP 	option2_text: autoDraw = True
+18.6622 	DATA 	Keypress: 0
+18.6761 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'imagefile': 'expimages/frisbee.PNG', 'object': 'frisbee disc', 'congruency': 'incongruent', 'actiontype': 'hand', 'action': 'writing', 'option1': 'Frisbee Disc', 'option2': 'Floor mat', 'corr_res': 1, 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+18.6992 	EXP 	writeimg: autoDraw = False
+18.6992 	EXP 	option1_text: autoDraw = False
+18.6992 	EXP 	option2_text: autoDraw = False
+18.6992 	EXP 	writeimg: image = 'expimages/frisbee.PNG'
+18.6992 	EXP 	option1_text: height = 0.05
+18.6992 	EXP 	option1_text: height = 0.05
+18.6992 	EXP 	option1_text: height = 0.05
+18.6992 	EXP 	option1_text: text = 'Frisbee Disc'
+18.6992 	EXP 	option2_text: height = 0.05
+18.6992 	EXP 	option2_text: height = 0.05
+18.6992 	EXP 	option2_text: height = 0.05
+18.6992 	EXP 	option2_text: text = 'Floor mat'
+18.7757 	EXP 	writeimg: autoDraw = True
+19.0746 	EXP 	writeimg: autoDraw = False
+19.6914 	INFO 	Keyboard events cleared
+19.6913 	EXP 	option1_text: autoDraw = True
+19.6913 	EXP 	option2_text: autoDraw = True
+20.5081 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'imagefile': 'expimages/keyboard.jpg', 'object': 'keyboard', 'congruency': 'incongruent', 'actiontype': 'hand', 'action': 'writing', 'option1': 'Containers', 'option2': 'Keyboard', 'corr_res': 0, 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+20.5280 	DATA 	Keypress: 1
+20.5306 	EXP 	writeimg: autoDraw = False
+20.5306 	EXP 	option1_text: autoDraw = False
+20.5306 	EXP 	option2_text: autoDraw = False
+20.5306 	EXP 	writeimg: image = 'expimages/keyboard.jpg'
+20.5306 	EXP 	option1_text: height = 0.05
+20.5306 	EXP 	option1_text: height = 0.05
+20.5306 	EXP 	option1_text: height = 0.05
+20.5306 	EXP 	option1_text: text = 'Containers'
+20.5306 	EXP 	option2_text: height = 0.05
+20.5306 	EXP 	option2_text: height = 0.05
+20.5306 	EXP 	option2_text: height = 0.05
+20.5306 	EXP 	option2_text: text = 'Keyboard'
+20.6076 	EXP 	writeimg: autoDraw = True
+20.9068 	EXP 	writeimg: autoDraw = False
+21.5233 	INFO 	Keyboard events cleared
+21.5232 	EXP 	option1_text: autoDraw = True
+21.5232 	EXP 	option2_text: autoDraw = True
+22.0827 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+22.0842 	DATA 	Keypress: 0
+22.0890 	EXP 	writeimg: autoDraw = False
+22.0890 	EXP 	option1_text: autoDraw = False
+22.0890 	EXP 	option2_text: autoDraw = False
+23.0923 	EXP 	walkingvid: autoDraw = True
+38.1892 	EXP 	Imported Instructional files/walking_trial.xlsx as conditions, 4 conditions, 8 params
+38.1896 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'imagefile': 'expimages/shoes.JPG', 'object': 'shoes', 'congruency': 'congruent', 'actiontype': 'leg', 'action': 'walking', 'option1': 'Baseball gloves', 'option2': 'Shoes', 'corr_res': 0, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+38.2047 	EXP 	walkingvid: autoDraw = False
+38.2047 	EXP 	walkingimg: image = 'expimages/shoes.JPG'
+38.2047 	EXP 	option1_text_3: height = 0.05
+38.2047 	EXP 	option1_text_3: height = 0.05
+38.2047 	EXP 	option1_text_3: height = 0.05
+38.2047 	EXP 	option1_text_3: text = 'Baseball gloves'
+38.2047 	EXP 	option2_text_3: height = 0.05
+38.2047 	EXP 	option2_text_3: height = 0.05
+38.2047 	EXP 	option2_text_3: height = 0.05
+38.2047 	EXP 	option2_text_3: text = 'Shoes'
+38.2047 	EXP 	walkingimg: autoDraw = True
+38.5075 	EXP 	walkingimg: autoDraw = False
+39.0745 	INFO 	Keyboard events cleared
+39.0743 	EXP 	option1_text_3: autoDraw = True
+39.0743 	EXP 	option2_text_3: autoDraw = True
+39.4774 	DATA 	Keypress: 0
+39.4916 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'imagefile': 'expimages/skateboard.jpg', 'object': 'skateboard', 'congruency': 'incongruent', 'actiontype': 'leg', 'action': 'walking', 'option1': 'Plate', 'option2': 'Skateboard', 'corr_res': 0, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+39.5128 	EXP 	walkingimg: autoDraw = False
+39.5128 	EXP 	option1_text_3: autoDraw = False
+39.5128 	EXP 	option2_text_3: autoDraw = False
+39.5128 	EXP 	walkingimg: image = 'expimages/skateboard.jpg'
+39.5128 	EXP 	option1_text_3: height = 0.05
+39.5128 	EXP 	option1_text_3: height = 0.05
+39.5128 	EXP 	option1_text_3: height = 0.05
+39.5128 	EXP 	option1_text_3: text = 'Plate'
+39.5128 	EXP 	option2_text_3: height = 0.05
+39.5128 	EXP 	option2_text_3: height = 0.05
+39.5128 	EXP 	option2_text_3: height = 0.05
+39.5128 	EXP 	option2_text_3: text = 'Skateboard'
+39.5911 	EXP 	walkingimg: autoDraw = True
+39.8902 	EXP 	walkingimg: autoDraw = False
+40.5061 	INFO 	Keyboard events cleared
+40.5059 	EXP 	option1_text_3: autoDraw = True
+40.5059 	EXP 	option2_text_3: autoDraw = True
+41.2726 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'imagefile': 'expimages/slippers.jpg', 'object': 'slippers', 'congruency': 'congruent', 'actiontype': 'leg', 'action': 'walking', 'option1': 'Purse', 'option2': 'Slippers', 'corr_res': 0, 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+41.2817 	DATA 	Keypress: 0
+41.2886 	EXP 	walkingimg: autoDraw = False
+41.2886 	EXP 	option1_text_3: autoDraw = False
+41.2886 	EXP 	option2_text_3: autoDraw = False
+41.2886 	EXP 	walkingimg: image = 'expimages/slippers.jpg'
+41.2886 	EXP 	option1_text_3: height = 0.05
+41.2886 	EXP 	option1_text_3: height = 0.05
+41.2886 	EXP 	option1_text_3: height = 0.05
+41.2886 	EXP 	option1_text_3: text = 'Purse'
+41.2886 	EXP 	option2_text_3: height = 0.05
+41.2886 	EXP 	option2_text_3: height = 0.05
+41.2886 	EXP 	option2_text_3: height = 0.05
+41.2886 	EXP 	option2_text_3: text = 'Slippers'
+41.3730 	EXP 	walkingimg: autoDraw = True
+41.6720 	EXP 	walkingimg: autoDraw = False
+42.2881 	INFO 	Keyboard events cleared
+42.2879 	EXP 	option1_text_3: autoDraw = True
+42.2879 	EXP 	option2_text_3: autoDraw = True
+43.2216 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'imagefile': 'expimages/ice-skates.JPG', 'object': 'ice skate', 'congruency': 'incongruent', 'actiontype': 'leg', 'action': 'walking', 'option1': 'Ice skates', 'option2': 'Lamp', 'corr_res': 1, 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+43.2451 	DATA 	Keypress: 0
+43.2476 	EXP 	walkingimg: autoDraw = False
+43.2476 	EXP 	option1_text_3: autoDraw = False
+43.2476 	EXP 	option2_text_3: autoDraw = False
+43.2476 	EXP 	walkingimg: image = 'expimages/ice-skates.JPG'
+43.2476 	EXP 	option1_text_3: height = 0.05
+43.2476 	EXP 	option1_text_3: height = 0.05
+43.2476 	EXP 	option1_text_3: height = 0.05
+43.2476 	EXP 	option1_text_3: text = 'Ice skates'
+43.2476 	EXP 	option2_text_3: height = 0.05
+43.2476 	EXP 	option2_text_3: height = 0.05
+43.2476 	EXP 	option2_text_3: height = 0.05
+43.2476 	EXP 	option2_text_3: text = 'Lamp'
+43.3208 	EXP 	walkingimg: autoDraw = True
+43.6204 	EXP 	walkingimg: autoDraw = False
+44.2366 	INFO 	Keyboard events cleared
+44.2364 	EXP 	option1_text_3: autoDraw = True
+44.2364 	EXP 	option2_text_3: autoDraw = True
+46.4444 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+46.4455 	DATA 	Keypress: 1
+46.4513 	EXP 	walkingimg: autoDraw = False
+46.4513 	EXP 	option1_text_3: autoDraw = False
+46.4513 	EXP 	option2_text_3: autoDraw = False
+47.4568 	EXP 	dance: autoDraw = True
+62.5535 	EXP 	Imported Instructional files/dance_trial.xlsx as conditions, 4 conditions, 8 params
+62.5540 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'imagefile': 'expimages/skateboard.jpg', 'object': 'skateboard', 'congruency': 'incongruent', 'actiontype': 'leg', 'action': 'dancing', 'option1': 'Paint roller', 'option2': 'Skateboard', 'corr_res': 0, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+62.5673 	EXP 	dance: autoDraw = False
+62.5673 	EXP 	danceimg: image = 'expimages/skateboard.jpg'
+62.5673 	EXP 	option1_text_2: height = 0.05
+62.5673 	EXP 	option1_text_2: height = 0.05
+62.5673 	EXP 	option1_text_2: height = 0.05
+62.5673 	EXP 	option1_text_2: text = 'Paint roller'
+62.5673 	EXP 	option2_text_2: height = 0.05
+62.5673 	EXP 	option2_text_2: height = 0.05
+62.5673 	EXP 	option2_text_2: height = 0.05
+62.5673 	EXP 	option2_text_2: text = 'Skateboard'
+62.5673 	EXP 	danceimg: autoDraw = True
+62.8701 	EXP 	danceimg: autoDraw = False
+63.4362 	INFO 	Keyboard events cleared
+63.4361 	EXP 	option1_text_2: autoDraw = True
+63.4361 	EXP 	option2_text_2: autoDraw = True
+64.4362 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'imagefile': 'expimages/ghungroo.jpg', 'object': 'anklet bells/ghungroo', 'congruency': 'congruent', 'actiontype': 'leg', 'action': 'dancing', 'option1': 'Ghungroo/anklet bells', 'option2': 'Musical instrument', 'corr_res': 1, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+64.4592 	DATA 	Keypress: 0
+64.4617 	EXP 	danceimg: autoDraw = False
+64.4617 	EXP 	option1_text_2: autoDraw = False
+64.4617 	EXP 	option2_text_2: autoDraw = False
+64.4617 	EXP 	danceimg: image = 'expimages/ghungroo.jpg'
+64.4617 	EXP 	option1_text_2: height = 0.05
+64.4617 	EXP 	option1_text_2: height = 0.05
+64.4617 	EXP 	option1_text_2: height = 0.05
+64.4617 	EXP 	option1_text_2: text = 'Ghungroo/anklet bells'
+64.4617 	EXP 	option2_text_2: height = 0.05
+64.4617 	EXP 	option2_text_2: height = 0.05
+64.4617 	EXP 	option2_text_2: height = 0.05
+64.4617 	EXP 	option2_text_2: text = 'Musical instrument'
+64.5356 	EXP 	danceimg: autoDraw = True
+64.8349 	EXP 	danceimg: autoDraw = False
+65.4516 	INFO 	Keyboard events cleared
+65.4514 	EXP 	option1_text_2: autoDraw = True
+65.4514 	EXP 	option2_text_2: autoDraw = True
+65.7179 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'imagefile': 'expimages/skipping-rope.jpg', 'object': 'skipping rope', 'congruency': 'incongruent', 'actiontype': 'leg', 'action': 'dancing', 'option1': 'Skipping rope', 'option2': 'Mic', 'corr_res': 1, 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+65.7284 	DATA 	Keypress: 1
+65.7337 	EXP 	danceimg: autoDraw = False
+65.7337 	EXP 	option1_text_2: autoDraw = False
+65.7337 	EXP 	option2_text_2: autoDraw = False
+65.7337 	EXP 	danceimg: image = 'expimages/skipping-rope.jpg'
+65.7337 	EXP 	option1_text_2: height = 0.05
+65.7337 	EXP 	option1_text_2: height = 0.05
+65.7337 	EXP 	option1_text_2: height = 0.05
+65.7337 	EXP 	option1_text_2: text = 'Skipping rope'
+65.7337 	EXP 	option2_text_2: height = 0.05
+65.7337 	EXP 	option2_text_2: height = 0.05
+65.7337 	EXP 	option2_text_2: height = 0.05
+65.7337 	EXP 	option2_text_2: text = 'Mic'
+65.8182 	EXP 	danceimg: autoDraw = True
+66.1173 	EXP 	danceimg: autoDraw = False
+66.7172 	INFO 	Keyboard events cleared
+66.7170 	EXP 	option1_text_2: autoDraw = True
+66.7170 	EXP 	option2_text_2: autoDraw = True
+67.4671 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'imagefile': 'expimages/balletshoes.jpg', 'object': 'ballet shoes', 'congruency': 'congruent', 'actiontype': 'leg', 'action': 'dancing', 'option1': 'Bag', 'option2': 'Ballet shoes', 'corr_res': 0, 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+67.4821 	DATA 	Keypress: 1
+67.4848 	EXP 	danceimg: autoDraw = False
+67.4848 	EXP 	option1_text_2: autoDraw = False
+67.4848 	EXP 	option2_text_2: autoDraw = False
+67.4848 	EXP 	danceimg: image = 'expimages/balletshoes.jpg'
+67.4848 	EXP 	option1_text_2: height = 0.05
+67.4848 	EXP 	option1_text_2: height = 0.05
+67.4848 	EXP 	option1_text_2: height = 0.05
+67.4848 	EXP 	option1_text_2: text = 'Bag'
+67.4848 	EXP 	option2_text_2: height = 0.05
+67.4848 	EXP 	option2_text_2: height = 0.05
+67.4848 	EXP 	option2_text_2: height = 0.05
+67.4848 	EXP 	option2_text_2: text = 'Ballet shoes'
+67.5662 	EXP 	danceimg: autoDraw = True
+67.8658 	EXP 	danceimg: autoDraw = False
+68.4820 	INFO 	Keyboard events cleared
+68.4818 	EXP 	option1_text_2: autoDraw = True
+68.4818 	EXP 	option2_text_2: autoDraw = True
+68.7591 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+68.7604 	DATA 	Keypress: 0
+68.7650 	EXP 	danceimg: autoDraw = False
+68.7650 	EXP 	option1_text_2: autoDraw = False
+68.7650 	EXP 	option2_text_2: autoDraw = False
+69.7895 	EXP 	handswinging: autoDraw = True
+81.4035 	EXP 	Imported Instructional files/handswing_trial.xlsx as conditions, 4 conditions, 8 params
+81.4042 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'imagefile': 'expimages/dart.jpg', 'object': 'dart', 'congruency': 'congruent', 'actiontype': 'hand', 'action': 'arm swing', 'option1': 'Dart', 'option2': 'Spoon', 'corr_res': 1, 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+81.4367 	EXP 	handswinging: autoDraw = False
+81.4367 	EXP 	handswinging: autoDraw = False
+81.4367 	EXP 	handswingimg: image = 'expimages/dart.jpg'
+81.4367 	EXP 	option1_text_4: height = 0.05
+81.4367 	EXP 	option1_text_4: height = 0.05
+81.4367 	EXP 	option1_text_4: height = 0.05
+81.4367 	EXP 	option1_text_4: text = 'Dart'
+81.4367 	EXP 	option2_text_4: height = 0.05
+81.4367 	EXP 	option2_text_4: height = 0.05
+81.4367 	EXP 	option2_text_4: height = 0.05
+81.4367 	EXP 	option2_text_4: text = 'Spoon'
+81.4877 	EXP 	handswingimg: autoDraw = True
+81.7870 	EXP 	handswingimg: autoDraw = False
+82.3869 	INFO 	Keyboard events cleared
+82.3867 	EXP 	option1_text_4: autoDraw = True
+82.3867 	EXP 	option2_text_4: autoDraw = True
+82.7899 	DATA 	Keypress: 1
+82.8039 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'imagefile': 'expimages/screwdriver.jpg', 'object': 'screwdriver', 'congruency': 'incongruent', 'actiontype': 'hand', 'action': 'arm swing', 'option1': 'Pin', 'option2': 'Screwdriver', 'corr_res': 0, 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+82.8436 	EXP 	handswingimg: autoDraw = False
+82.8436 	EXP 	option1_text_4: autoDraw = False
+82.8436 	EXP 	option2_text_4: autoDraw = False
+82.8436 	EXP 	handswingimg: image = 'expimages/screwdriver.jpg'
+82.8436 	EXP 	option1_text_4: height = 0.05
+82.8436 	EXP 	option1_text_4: height = 0.05
+82.8436 	EXP 	option1_text_4: height = 0.05
+82.8436 	EXP 	option1_text_4: text = 'Pin'
+82.8436 	EXP 	option2_text_4: height = 0.05
+82.8436 	EXP 	option2_text_4: height = 0.05
+82.8436 	EXP 	option2_text_4: height = 0.05
+82.8436 	EXP 	option2_text_4: text = 'Screwdriver'
+82.9200 	EXP 	handswingimg: autoDraw = True
+83.2190 	EXP 	handswingimg: autoDraw = False
+83.8188 	INFO 	Keyboard events cleared
+83.8187 	EXP 	option1_text_4: autoDraw = True
+83.8187 	EXP 	option2_text_4: autoDraw = True
+84.7518 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'imagefile': 'expimages/scissors.jpg', 'object': 'scissors', 'congruency': 'incongruent', 'actiontype': 'hand', 'action': 'arm swing', 'option1': 'Scissors', 'option2': 'Spectacle Frame', 'corr_res': 1, 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+84.7818 	DATA 	Keypress: 0
+84.7844 	EXP 	handswingimg: autoDraw = False
+84.7844 	EXP 	option1_text_4: autoDraw = False
+84.7844 	EXP 	option2_text_4: autoDraw = False
+84.7844 	EXP 	handswingimg: image = 'expimages/scissors.jpg'
+84.7844 	EXP 	option1_text_4: height = 0.05
+84.7844 	EXP 	option1_text_4: height = 0.05
+84.7844 	EXP 	option1_text_4: height = 0.05
+84.7844 	EXP 	option1_text_4: text = 'Scissors'
+84.7844 	EXP 	option2_text_4: height = 0.05
+84.7844 	EXP 	option2_text_4: height = 0.05
+84.7844 	EXP 	option2_text_4: height = 0.05
+84.7844 	EXP 	option2_text_4: text = 'Spectacle Frame'
+84.8517 	EXP 	handswingimg: autoDraw = True
+85.1506 	EXP 	handswingimg: autoDraw = False
+85.7668 	INFO 	Keyboard events cleared
+85.7667 	EXP 	option1_text_4: autoDraw = True
+85.7667 	EXP 	option2_text_4: autoDraw = True
+87.0669 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'imagefile': 'expimages/racket.jpg', 'object': 'racket', 'congruency': 'congruent', 'actiontype': 'hand', 'action': 'arm swing', 'option1': 'Stapler', 'option2': 'Racket', 'corr_res': 0, 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+87.1056 	DATA 	Keypress: 1
+87.1081 	EXP 	handswingimg: autoDraw = False
+87.1081 	EXP 	option1_text_4: autoDraw = False
+87.1081 	EXP 	option2_text_4: autoDraw = False
+87.1081 	EXP 	handswingimg: image = 'expimages/racket.jpg'
+87.1081 	EXP 	option1_text_4: height = 0.05
+87.1081 	EXP 	option1_text_4: height = 0.05
+87.1081 	EXP 	option1_text_4: height = 0.05
+87.1081 	EXP 	option1_text_4: text = 'Stapler'
+87.1081 	EXP 	option2_text_4: height = 0.05
+87.1081 	EXP 	option2_text_4: height = 0.05
+87.1081 	EXP 	option2_text_4: height = 0.05
+87.1081 	EXP 	option2_text_4: text = 'Racket'
+87.1829 	EXP 	handswingimg: autoDraw = True
+87.4822 	EXP 	handswingimg: autoDraw = False
+88.0816 	INFO 	Keyboard events cleared
+88.0814 	EXP 	option1_text_4: autoDraw = True
+88.0814 	EXP 	option2_text_4: autoDraw = True
+88.5107 	DATA 	Keypress: 1
+88.5145 	INFO 	Keyboard events cleared
+88.5143 	EXP 	handswingimg: autoDraw = False
+88.5143 	EXP 	option1_text_4: autoDraw = False
+88.5143 	EXP 	option2_text_4: autoDraw = False
+88.5143 	EXP 	thanks: autoDraw = True
+88.5334 	DATA 	Keypress: 0
+90.4806 	DATA 	Keypress: space
+90.4963 	EXP 	thanks: autoDraw = False
+90.4965 	EXP 	Action Priming Exp: status = STOPPED
+90.5256 	INFO 	saved data to 'C:\\Users\\DELL\\OneDrive\\Desktop\\PsychoPy\\Solo Project_ Action Priming\\data/0005_Action Priming Exp_2025-11-23_08h17.45.255.csv'
+90.5279 	INFO 	saved data to C:\Users\DELL\OneDrive\Desktop\PsychoPy\Solo Project_ Action Priming\data/0005_Action Priming Exp_2025-11-23_08h17.45.255.psydat
+91.0722 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+91.1281 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+91.1282 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+91.1282 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+91.1283 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+91.1283 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
+91.1283 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
